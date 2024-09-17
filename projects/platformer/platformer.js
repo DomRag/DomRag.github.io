@@ -56,7 +56,7 @@ createPlatform( 600, 220, 300, 20)
     createCollectable( "steve", 500, 300, 20, 0.5);
     createCollectable( "max", 120, 150, 20, 0.5);
     createCollectable( "kennedi", 690, 590, 0, 0.5);
-    
+    createCollectable( "grace", 650, 180, 0, 0.5);
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
@@ -64,6 +64,7 @@ createPlatform( 600, 220, 300, 20)
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("right", 600, 1500);
     createCannon("right",300, 1500);
+    createCannon("top", 400, 1500);
 
     
     /////////////////////////////////////////////////
