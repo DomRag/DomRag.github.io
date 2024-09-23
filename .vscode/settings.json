@@ -1,6 +1,8 @@
 {
   "workbench.editorAssociations": {
-    "*.md": "vscode.markdown.preview.editor"
+    "*.md": "vscode.markdown.preview.editor",
+    "*.jpg": "imagePreview.previewEditor",
+    "*.jfif": "default"
   },
   "liveServer.settings.port": 5503,
   "editor.defaultFormatter": "esbenp.prettier-vscode",

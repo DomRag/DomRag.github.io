@@ -54,9 +54,9 @@ createPlatform( 600, 220, 300, 20)
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
     createCollectable( "theMask", 500, 300, 20, 0.5);
-    createCollectable( "max", 120, 150, 20, 0.5);
-    createCollectable( "kennedi", 690, 590, 0, 0.5);
-    createCollectable( "grace", 650, 180, 0, 0.5);
+    createCollectable( "sonic", 120, 150, 20, 0.5);
+    createCollectable( "theGrinch", 690, 590, 0, 0.5);
+    createCollectable( "dumb", 650, 180, 0, 0.5);
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds

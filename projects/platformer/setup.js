@@ -98,4 +98,8 @@ var collectableList = {
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
   theMask: { image: "images/collectables/the mask part 3.jpg" },
+  theGrinch: { image: "images/collectables/the grinch.jfif" },
+  sonic: { image: "images/collectables/sonic.jpg" },
+  dumb: { image: "images/collectables/dumb and dumber.jfif" },
 };
+
