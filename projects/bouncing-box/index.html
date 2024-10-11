@@ -10,9 +10,10 @@
         height: 70px;
         background-image: url("https://media.tenor.com/uFk5EjK5GksAAAAM/the-mask-jim-carrey.gif");
         font-size: 300%;
+        -webkit-text-fill-color: white;
         text-align: center;
         user-select: none;
-        display: block;
+        display: circle;
         position: absolute;
         top: 100px;
         /* Change me! */
@@ -43,7 +44,7 @@
 
         var box = jQuery(".box"); // reference to the HTML .box element
         var board = jQuery(".board"); // reference to the HTML .board element
-        var boardWidth = board.width(); // the maximum X-Coordinate of the screen
+        var boardWidth = jQuery(window).width(); // the maximum X-Coordinate of the screen
 
         // Every 50 milliseconds, call the update Function (see below)
         setInterval(update, 50);
