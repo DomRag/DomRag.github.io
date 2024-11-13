@@ -27,7 +27,7 @@ var init = function (window) {
       circles.push(circle);
     }
     // TODO 3 / 7 : Call the drawCircle() function
-    for (var i = 0; i < 1; i++) {
+    for (var i = 0; i < 100; i++) {
       drawCircle();
     }
 
@@ -62,19 +62,19 @@ var init = function (window) {
       var leftEdge = circle.x - circle.radius;
       var topEdge = circle.y + circle.radius;
       var bottomEdge = circle.y - circle.radius;
-      if (rightEdge > canvas.width) {
-       rightEdge = 0;
+      if (circle.x > canvas.width) {
+       circle.x = 0;
       }
 
       // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-      if (leftEdge < 0) {
-        leftEdge = canvas.width;
+      if (circle.x < 0) {
+        circle.x = canvas.width;
       }
-      if (topEdge > canvas.height) {
-        topEdge = 0;
+      if (circle.y > canvas.height) {
+        circle.y = 0;
       }
-      if (bottomEdge < 0) {
-        bottomEdge = canvas.height;
+      if (circle.y < 0) {
+        circle.y = canvas.height;
       }
 
       // YOUR TODO 6 CODE ENDS HERE //////////////////////////
