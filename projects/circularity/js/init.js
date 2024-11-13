@@ -62,8 +62,8 @@ var init = function (window) {
       var leftEdge = circle.x - circle.radius;
       var topEdge = circle.y + circle.radius;
       var bottomEdge = circle.y - circle.radius;
-      if (circle.x > canvas.width) {
-       circle.x = 0;
+      if (rightEdge > canvas.width) {
+       rightEdge = 0;
       }
 
       // TODO 6 : YOUR CODE STARTS HERE //////////////////////
